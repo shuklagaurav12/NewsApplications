@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet var tblView: UITableView!
      var newsArray = [AnyObject]()
-    
+    // check
     
       private let dataManager = ApiClass(baseURL: API.AuthenticatedBaseURL)
     
